@@ -1,0 +1,68 @@
+﻿body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+header {
+  padding: 10px 0;
+  margin: 0;
+  background-color: #D2B48C;
+  color: white;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header h1 {
+	padding-left: 30px;
+	margin: 0;
+    font-family: Georgia, serif;
+}
+
+header p {
+	padding-right: 20px;
+	margin: 0;
+}
+
+.banner {
+    padding-top: 60px;
+	padding-bottom: 90px;
+    padding-left: 80px;
+	text-align: left;
+    text-shadow: 0 1px grey;
+    color: darkslategrey;
+    background-image: url("livingroom.jpg");
+    background-size: cover;
+}
+
+#table {
+    align-content: center;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+table {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}
+
+footer {
+    background-color: #D2B48C;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+footer p {
+    padding-right: 20px;
+    font-size: 12px;
+}
