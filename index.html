@@ -1,54 +1,93 @@
 ﻿<!DOCTYPE html>
+<!-- Furniture Site 2 w/ Bootstrap and CSS Dropdown Menu-->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Index</title>
     <link rel="stylesheet" type="text/css" href="styles/StyleSheet.css">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+          crossorigin="anonymous">
 </head>
 <body>
-    <header>
-      
-            <h1 class="col-sm-8">Furniture</h1>
-            <nav class="col-sm-4 text-right">
-                <p>About</p>
-                <p>Shop</p>
-                <p>FAQ</p>
-                <p>Contact</p>
-                <p>Log In</p>
+
+    <!-- Header with Furniture title and dropdown menu-->
+    <header class="container">
+        <div class="row">
+            <h1 class="col-sm-4">Furniture</h1>
+            <!-- dropdown menu-->
+            <nav class="col-sm-8">
+
+                <ul class="dropdown">
+
+                    <li class="dropbtn">
+                        <a href="#">Shop</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Kitchen/Dining</a></li>
+                            <li><a href="#">Living</a></li>
+                            <li><a href="#">Bedroom</a></li>
+                            <li><a href="#">Children's</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropbtn"><a href="#">About</a></li>
+                    <li class="dropbtn">Home</li>
+                </ul>
+
             </nav>
-       
+        </div>
     </header>
-    
-    <div class="banner">
-        <h2>The best furniture</h2>
-        <p>Find what you're looking for here</p>
-    </div>
+    <!-- jumbotron section, banner image and description-->
+    <section class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <h3>The best furniture</h3>
+                <p>Find what you're looking for here</p>
+            </div>
+        </div>
+    </section>
 
-    <div id="table">
-        <table>
-            <tr>
-                <td>
-                    <p>Kitchen and Dining</p>
-                    <img src="kitchendining.jpg">
-                </td>
-                <td>
-                    <p>Living</p>
-                    <img src="livingroom2.jpg">
-                </td>
-                <td>
-                    <p>Bedroom</p>
-                    <img src="bedroom.jpg">
-                </td>
-                <td>
-                    <p>Kids</p>
-                    <img src="childrens.jpg">
-                </td>
-            </tr>
-        </table>
-    </div>
+    <!-- Container class, different rooms/shopping categories-->
+    <section class="container">
+        <div class="row">
+            <figure class="col-sm-6">
+                <a href="#"><p>Kitchen and Dining</p></a>
+                <a href="#"><img src="kitchendining.jpg"></a>
+            </figure>
+            <figure class="col-sm-6">
+                <a href="#"><p>Living</p></a>
+                <a href="#"><img src="livingroom2.jpg"></a>
+            </figure>
+            <figure class="col-sm-6">
+                <a href="#"><p>Bedroom</p></a>
+                <a href="#"><img src="bedroom.jpg"></a>
+            </figure>
+            <figure class="col-sm-6">
+                <a href="#"><p>Kids</p></a>
+                <a href="#"><img src="childrens.jpg"></a>
+            </figure>
+        </div>
+    </section>
 
-    <footer>    
-        <p>123-456-7890</p>
-        <p>furniturestore@furniturestore.com</p>
+    <!-- footer Contact Info-->
+    <footer class="container">
+        <div class="row text-right">
+            <p>123-456-7890</p>
+            <p>info@furniturestore.com</p>
+        </div>
     </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="Script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous">
+    </script>
 </body>
 </html>
+
+
+
