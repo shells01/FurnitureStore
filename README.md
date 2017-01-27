@@ -10,4 +10,4 @@ An early furniture store website created with HTML, CSS, and JavaScript/jQuery.
 An early furniture store website created with HTML & CSS.
 - HTML, CSS
 - Layout is created with Bootstrap
-- Contains a dropdown menu made with CSS (the menu is more complicated than the jQuery dropdown menu made with jQuery in Furniture Store js folder. 
+- Contains a dropdown menu made with CSS (the menu is more complicated than the jQuery dropdown menu made with jQuery in Furniture Store js folder).
